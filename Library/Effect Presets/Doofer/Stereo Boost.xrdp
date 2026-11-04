@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FilterDevicePreset doc_version="9">
+  <DeviceSlot type="DooferDevice">
+    <IsMaximized>true</IsMaximized>
+    <Macro0>
+      <Value>75</Value>
+      <Name>Width</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>0</DestParameterIndex>
+          <Min>0.505000472</Min>
+          <Max>0.049999997</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>2</DestDeviceIndex>
+          <DestParameterIndex>0</DestParameterIndex>
+          <Min>0.251188338</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+        <Mapping>
+          <DestDeviceIndex>1</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>0.500000477</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro0>
+    <Macro1>
+      <Value>25</Value>
+      <Name>Gain</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>0</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro1>
+    <Macro2>
+      <Value>50</Value>
+      <Name>Panning</Name>
+      <Mappings>
+        <Mapping>
+          <DestDeviceIndex>3</DestDeviceIndex>
+          <DestParameterIndex>1</DestParameterIndex>
+          <Min>0.0</Min>
+          <Max>1.0</Max>
+          <Scaling>Linear</Scaling>
+        </Mapping>
+      </Mappings>
+    </Macro2>
+    <Macro3>
+      <Value>50</Value>
+      <Name>Macro 4</Name>
+    </Macro3>
+    <Macro4>
+      <Value>50</Value>
+      <Name>Macro 5</Name>
+    </Macro4>
+    <Macro5>
+      <Value>50</Value>
+      <Name>Macro 6</Name>
+    </Macro5>
+    <Macro6>
+      <Value>50</Value>
+      <Name>Macro 7</Name>
+    </Macro6>
+    <Macro7>
+      <Value>50</Value>
+      <Name>Macro 8</Name>
+    </Macro7>
+    <NumActiveMacros>3</NumActiveMacros>
+    <ShowDevices>false</ShowDevices>
+    <DeviceChain>
+      <Devices>
+        <GainerDevice type="GainerDevice">
+          <IsActive>true</IsActive>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <CustomDeviceName>Phase Left</CustomDeviceName>
+          <Volume>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>true</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+        <StereoExpanderDevice type="StereoExpanderDevice">
+          <IsActive>true</IsActive>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <CustomDeviceName>Reduce Side</CustomDeviceName>
+          <MonoMixMode>L+R</MonoMixMode>
+          <StereoWidth>
+            <Value>0.163750112</Value>
+            <Visualization>Device only</Visualization>
+          </StereoWidth>
+          <SurroundWidth>
+            <Value>0.375000358</Value>
+            <Visualization>Device only</Visualization>
+          </SurroundWidth>
+        </StereoExpanderDevice>
+        <GainerDevice type="GainerDevice">
+          <IsActive>true</IsActive>
+          <IsSelected>true</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <CustomDeviceName>Width</CustomDeviceName>
+          <Volume>
+            <Value>3.25118828</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>false</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+        <GainerDevice type="GainerDevice">
+          <IsActive>true</IsActive>
+          <IsSelected>false</IsSelected>
+          <SelectedPresetName>Init</SelectedPresetName>
+          <SelectedPresetIsModified>true</SelectedPresetIsModified>
+          <IsMaximized>false</IsMaximized>
+          <CustomDeviceName>Phase Right</CustomDeviceName>
+          <Volume>
+            <Value>1.0</Value>
+            <Visualization>Mixer and Device</Visualization>
+          </Volume>
+          <Panning>
+            <Value>0.5</Value>
+            <Visualization>Device only</Visualization>
+          </Panning>
+          <LPhaseInvert>false</LPhaseInvert>
+          <RPhaseInvert>true</RPhaseInvert>
+          <SmoothParameterChanges>true</SmoothParameterChanges>
+        </GainerDevice>
+      </Devices>
+    </DeviceChain>
+  </DeviceSlot>
+</FilterDevicePreset>
